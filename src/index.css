@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body{
+  font-family: 'Manrope', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #dfdfdf;
+  background-color: #1f1f1f;
+}
+
+ul, ol{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+button, input, textarea, select{
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
