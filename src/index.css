@@ -1,45 +1,43 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+@import "tailwindcss";
+
+@font-face {
+    font-family: "AgrandirG";
+    src: url("./assets/fonts/Agrandir-GrandHeavy.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-}
-
-html{
-  scroll-behavior: smooth;
-  height: 100%;
+@font-face {
+    font-family: "TAN";
+    src: url("./assets/fonts/Tan-font.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
 }
 
 body{
-  font-family: 'Manrope', Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
-  color: #dfdfdf;
-  background-color: #1f1f1f;
+    @apply bg-[#19171A]
 }
 
-ul, ol{
-  list-style: none;
+.agrandir {
+    font-family: "AgrandirG", sans-serif;
 }
 
-a{
-  text-decoration: none;
-  color: inherit;
+.tan{
+    font-family: "TAN", sans-serif;
 }
 
-button, input, textarea, select{
-  font: inherit;
-  border: none;
-  outline: none;
-  background: none;
+.glass-effect{
+   background: rgb(25, 23, 26, 0.6);
+   backdrop-filter: blur(12px) saturate(180%);
+   -webkit-backdrop-filter: blur(12px) saturate(180%);
+   border-bottom: 1px solid #f2eee269;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
 }
 
-img{
-  max-width: 100%;
-  height: auto;
+.nav-link{
+    @apply text-lg text-[#F2EEE2] rounded-2xl hover:bg-[#d0cdc360] hover:text-[#f7f6f4] hover:shadow-[0_8px_10px_rgba(0,0,0,0.4)] transition;
+}
+
+.button{
+    @apply z-10 cursor-pointer text-xl rounded-lg border-1 border-[#F2EEE2] px-6 py-1.5 bg-[#f2eee253] text-[#F2EEE2] hover:bg-[#f2eee26b]
 }
