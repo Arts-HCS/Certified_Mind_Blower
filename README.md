@@ -26,7 +26,7 @@ Follow these steps to run the project locally:
 
 2. **Install Dependencies**
 ```bash
-  npm install
+  npm run dev
 ```
 
 3. **Start the development server**
