@@ -10,7 +10,7 @@
 
 - **React** – For building the UI  
 - **JavaScript (ES6+)** – Logic and interactivity  
-- **CSS / Tailwind  – Styling components
+- **CSS / Tailwind**  – Styling components
 
 ---
 
