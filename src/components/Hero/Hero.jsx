@@ -12,11 +12,11 @@ const Hero = () => {
         <img className='w-17 h-17 absolute bottom-45 left-60 animate-[spin_4s_linear_infinite]' src={corazon} />
         <div className=' absolute bg-[linear-gradient(200deg,#19171A,#F2EEE2)] w-full h-55 rounded-full -bottom-45 left-0 blur-[80px] pointer-events-none'></div>
         <div className="mt-20 w-full h-10 flex items-center justify-center gap-5">
-          <button className='button agrandir hover:-translate-y-1.5 hover:scale-105 hover:shadow-2xl transition'>Hoodies</button>
-          <button className='button agrandir hover:-translate-y-1.5 hover:scale-105 hover:shadow-2xl transition'>Pants</button>
-          <button className='button agrandir hover:-translate-y-1.5 hover:scale-105 hover:shadow-2xl transition'>Shorts</button>
-          <button className='button agrandir hover:-translate-y-1.5 hover:scale-105 hover:shadow-2xl transition'>Playeras</button>
-          <button className='button agrandir hover:-translate-y-1.5 hover:scale-105 hover:shadow-2xl transition'>Chamarras</button>
+          <div className='button agrandir hover:-translate-y-1.5 hover:scale-105 hover:shadow-2xl transition'>Hoodies</div>
+          <div className='button agrandir hover:-translate-y-1.5 hover:scale-105 hover:shadow-2xl transition'>Pants</div>
+          <div className='button agrandir hover:-translate-y-1.5 hover:scale-105 hover:shadow-2xl transition'>Shorts</div>
+          <div className='button agrandir hover:-translate-y-1.5 hover:scale-105 hover:shadow-2xl transition'>Playeras</div>
+          <div className='button agrandir hover:-translate-y-1.5 hover:scale-105 hover:shadow-2xl transition'>Chamarras</div>
         </div>
     </section>
   )

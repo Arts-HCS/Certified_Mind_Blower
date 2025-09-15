@@ -15,7 +15,7 @@
 }
 
 body{
-    @apply bg-[#19171A]
+    @apply bg-[#19171A];
 }
 
 .agrandir {
