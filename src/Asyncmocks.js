@@ -106,7 +106,7 @@ const productos = [
     },
     {
         id: 16,
-        nombre: "CMD ORANGE CARACAS SHORTS",
+        nombre: "LOWKEY BLOWER HOODIE",
         precio: '90,00 USD',
         img: 'src/assets/designs/hoodie3/hoodie-front.png',
         img_back: 'src/assets/designs/hoodie3/hoodie-back.png'
