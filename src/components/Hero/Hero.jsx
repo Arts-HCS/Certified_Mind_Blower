@@ -37,7 +37,6 @@ const Hero = () => {
         <span className='tan text-9xl tracking-wider'>BLOWER</span>
       </h1>
 
-      {/* Spinning hearts */}
       <img
         className='w-17 h-17 absolute top-40 right-20 animate-[spin_6s_linear_infinite]'
         src={corazon}
