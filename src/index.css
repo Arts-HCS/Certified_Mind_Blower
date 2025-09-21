@@ -39,5 +39,5 @@ body{
 }
 
 .button{
-    @apply z-10 cursor-pointer text-xl rounded-lg border-1 border-[#F2EEE2] px-6 py-1.5 bg-[#f2eee253] text-[#F2EEE2] hover:bg-[#f2eee26b]
+    @apply z-10 text-[17px] rounded-lg border-1 border-[#F2EEE2] px-11 py-1.5 bg-[#f2eee253] text-[#F2EEE2] hover:bg-[#f2eee26b]
 }

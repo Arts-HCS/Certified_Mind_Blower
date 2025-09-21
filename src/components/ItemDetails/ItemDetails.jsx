@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useState } from "react"
 
 
 const ItemDetails = ({id, nombre, precio, img, img_back}) => {
@@ -50,8 +50,6 @@ const ItemDetails = ({id, nombre, precio, img, img_back}) => {
           </label>
         <input type="number" id="unidades" name="unidades" placeholder="Ingresa la cantidad:" onChange={controlarCambio} className="w-full p-2 border-l-[1.5px] border-b-[1.5px] focus:outline-0 " />
         <button id="submitButton" className={`mt-6 w-full py-3 ${buttonColor} text-[#F3EEE2] text-[17px] shadow-[0_4px_12px_rgba(0,0,0,0.2)] hover:scale-103 transition-all`} type="submit">Agrega al menos una unidad</button>
-
-
       </div>
     </div>
   )
